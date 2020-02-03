@@ -1,0 +1,49 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled7.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyM9zlP8F999S/33+TBYMTS+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/amir13861357/amirhosseinmaleki/blob/master/%D8%AA%D9%85%D8%B1%DB%8C%D9%86%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZJ-sTsUzM7fk",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "file_name = \"text.txt\"\n",
+        "count = 0\n",
+        "file =open(file_name, \"r\")\n",
+        "lines = file.readlines()\n",
+        "\n",
+        "for i in lines:\n",
+        "  count += 1\n",
+        "  print(count)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
